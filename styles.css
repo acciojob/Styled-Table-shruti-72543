@@ -1,1 +1,21 @@
 /* your code */
+table{
+	height:100%;
+	width:100%;
+	border-radius:9%;
+	border-style:round;
+	border: 1px  gray;
+	margin:0px;
+	padiing:0px;
+	
+}
+table>thead{
+	background-color:steelblue;
+	border:none;
+}
+  tbody tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+  tbody tr:nth-child(odd){
+	background-color:white;
+}
